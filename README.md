@@ -83,10 +83,11 @@ yarn dev gif <videoId> <start> <end>
 ### Storage Requirements
 
 The main challenge is balancing GIF quality with storage requirements. Real-world example:
+- 8-minute Bluey episode at 10 FPS = 4,800 frames
+- 480p JPG frames
+- Total storage per episode ≈ 87MB
 
-8-minute Bluey episode at 10 FPS = 4,800 frames
-480p JPG frames
-Total storage per episode ≈ 87MB
+This means a full season of Bluey (52 episodes) would require around 4.5GB of storage just for the frames.
 
 Potential solutions being considered:
 1. Intelligent frame selection based on scene detection
@@ -101,6 +102,16 @@ Potential solutions being considered:
 - Web UI for search and GIF creation
 - Vector search for semantic matching
 - Multiple subtitle format support
+
+## Examples
+
+Here are some GIFs created using Frame Seekr:
+
+### Bluey
+![Bluey example](./bluey.gif)
+
+### Star Wars
+![Star Wars example](./star_wars.gif)
 
 ## Acknowledgments
 
