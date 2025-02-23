@@ -1,0 +1,5 @@
+*.mkv
+node_modules
+output
+*.db
+.DS_Store
